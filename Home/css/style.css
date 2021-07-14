@@ -1,0 +1,485 @@
+
+@import url("font-awesome.min.css");
+@import url("http://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900");
+
+/* --------------------------------------- INI BAHAGIAN BASIC --------------------------------------- */
+
+body 
+{
+	color: black;
+	font-family: 'Raleway', sans-serif;
+	font-size: 13pt;
+	font-weight: 300;
+	line-height: 1.75em;
+	background: linear-gradient(black, grey, black);
+}
+
+h1, h2, h3
+{
+	line-height: 1.75em;
+	margin-bottom: 1em;
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a 
+{
+	text-decoration: none;
+}
+
+h2 
+{
+	font-size: 1.5em;
+}
+
+h3 
+{
+	font-size: 1.25em;
+}
+
+hr 
+{
+	border: 1px solid black;
+	margin-bottom: 1.5em;
+	width: 80%;
+}
+
+header.major
+{
+	padding-bottom: 4em;
+}
+
+header h2 
+{
+	margin: 0;
+	padding: 0;
+	font-weight: 300;
+}
+
+header .byline 
+{
+	font-size: 25px;
+}
+
+footer > :last-child 
+{
+	margin-bottom: 0;
+}
+
+.homepage #main .major 
+{
+	text-align: center;
+}
+
+#main 
+{
+	padding: 6em 0;
+}
+
+/* --------------------------------------- INI BAHAGIAN LIST --------------------------------------- */
+
+ul 
+{
+	margin: 0;
+	padding: 0;
+	margin-right: 500;
+}
+
+ul.contact li 
+{
+	padding: 1.05em 0;
+	border-top: 1px solid;
+	border-color: rgba(192, 192, 192, 0.15);
+}
+
+ul.contact li > span 
+{
+	display: inline-block;
+}
+
+ul.contact li .address, ul.contact li .mail, ul.contact li .phone 
+{
+ 	float: left;
+	width: 100px;
+	font-weight: 600;
+}
+
+ul.contact > :first-child 
+{
+	padding-top: 0;
+	border-top: none;
+}
+
+ul.style li 
+{
+	clear: both;
+	display: block;
+	padding-top: 3em;
+}
+
+ul.style > :first-child 
+{
+	padding-top: 0;
+}
+
+ul.style h3 
+{
+	display: block;
+	margin: 0;
+	padding-bottom: 0.50em;
+ 	font-size: 1.1em;
+	font-weight: 700;
+	color: black;
+}
+
+ul.style .fa 
+{
+	float: left;
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	margin-right: 1em;
+	background: white;
+	line-height: 80px;
+	text-align: center;
+	border-radius: 10px;
+	font-size: 2em;
+	color:#ffa500;
+}
+
+/* --------------------------------------- INI BAHAGIAN WRAPPER --------------------------------------- */
+
+#mainwrapper
+{
+
+    width: 1250px;
+    margin: 0 auto;
+    margin-top: 40px;
+    border-top: 5px solid #ffa500;
+}
+
+.wrapper.style1 
+{
+ 	background: #ffa500;
+}
+
+.wrapper.style1 span
+{
+ 	font-size: 17.5px;
+}
+
+.wrapper.style1 h3
+{
+ 	font-size: 25.5px;
+}
+
+.imgLeft1
+{
+    float: left;
+    width: 300px;
+    height: 230px;
+    border:2px solid black;
+    border-radius: 10px;
+}
+
+.wrapper.style2 
+{
+	background: #ececec;
+	padding: 6em 0;
+	text-align: center;
+}
+
+.wrapper.style2 p
+{
+	font-size: 13pt;
+}
+
+.wrapper.style2 h2
+{
+	font-size: 50.5px;
+}
+
+.wrapper.style4 
+{
+	background: #ececec;
+	padding: 6em 0;
+	text-align: center;
+}
+
+.wrapper.style4 h3
+{
+ 	font-size: 25.5px;
+}
+
+.image.feature 
+{
+	display: block;
+	margin: 0 0 2em 0;
+}
+
+.image.feature img 
+{
+	display: block;
+	width: 100%;
+	border-radius: 10px;
+	border: 2px solid black;
+}
+
+
+/* --------------------------------------- INI BAHAGIAN HEADER --------------------------------------- */
+
+#header 
+{
+	background: url("../images/1.jpg") no-repeat;
+	background-size: cover;
+	color: #fff;
+	text-align: center;
+	background-position: 0% 65%;
+	position: relative;
+}
+
+#header:before
+{
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(16, 32, 48, 0.25)
+}
+
+#header > *
+{
+	position: relative;
+	z-index: 1;
+}
+
+.homepage #header 
+{
+	padding: 1em 0 ;
+	background-position: center;
+}
+
+#logo 
+{
+	font-size: 2em;
+	float: left;
+	margin-top: 10px;
+	margin-left: 100px;
+	font-weight: 700;
+	color: #ffa500;
+}
+
+#nav 
+{
+	margin-left: 0px;
+}
+
+#nav > ul 
+{
+	margin: 0;
+	float: right;
+	margin-right: 110px;
+}
+
+#nav > ul > li 
+{
+	border-radius: 10px 10px 0 0;
+	display: inline-block;
+	margin-left: 0.5em;
+	padding: 0.5em 1.5em;
+}
+
+#nav > ul > li a 
+{
+	color: white;
+	text-decoration: none;
+	font-size: 1.3em;
+}
+
+#nav > ul > li:first-child 
+{
+	margin-left: 0;
+}
+
+#nav > ul > li:hover a 
+{
+	color: #fff;
+}
+
+#nav > ul > li.active 
+{
+	background: #ffa500;
+}
+
+#nav > ul > li.active a 
+{
+	color: white;
+}
+
+#nav > ul > li > ul 
+{
+	display: none;
+}
+
+/* --------------------------------------- INI BAHAGIAN DROPOTRON --------------------------------------- */
+
+.dropotron 
+{
+	background: black;
+	border-radius: 5px;
+	color: white;
+	min-width: 12em;
+}
+
+.dropotron > li 
+{
+	line-height: 2em;
+	padding: 0 1em;
+}
+
+.dropotron > li > a 
+{
+	color: #FFF;
+	text-decoration: none;
+}
+
+.dropotron > li.active > a, .dropotron > li:hover > a 
+{
+	color: #FFF;
+}
+
+.dropotron.level-0 
+{
+	border-radius: 0 10px 10px 10px;
+	font-size: 1em;
+}
+
+/* --------------------------------------- INI BAHAGIAN BANNER --------------------------------------- */
+
+#banner 
+{
+	text-align: center;
+	padding: 4em 0 0 0;
+}
+
+#banner .major .byline 
+{
+	display: block;
+	margin: 0em 2em;
+	line-height: 1.6em;
+	font-size: 1.5em;
+}
+		
+#banner a 
+{
+	color: black;
+}
+
+#banner a:hover
+{
+	color: black;
+}
+
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+.button
+{
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	-o-appearance: none;
+	-ms-appearance: none;
+	appearance: none;
+	-moz-transition: background-color 0.2s ease-in-out;
+	-webkit-transition: background-color 0.2s ease-in-out;
+	-o-transition: background-color 0.2s ease-in-out;
+	-ms-transition: background-color 0.2s ease-in-out;
+	transition: background-color 0.2s ease-in-out;
+	background: #ffa500;
+	border-radius: 40px;
+	border: 0;
+	cursor: pointer;
+	display: inline-block;
+	padding: 0.80em 2em;
+	text-align: center;
+	text-decoration: none;
+	font-size: 1.4em;
+	font-weight: 600;
+	min-width: 10em;
+	margin-bottom: 20px;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+.button:hover 
+{
+	background-color: white;
+}
+
+/* --------------------------------------- INI BAHAGIAN FOOTER --------------------------------------- */
+
+#footer 
+{
+	padding: 4em 0;
+	color: black;
+	background: #ffa500;
+}
+
+#footer ul 
+{
+	text-align: center;
+	margin-bottom: -35px;
+}
+#footer a 
+{
+	color: black;
+	font-size: 30px;
+	margin-left: 15px;
+}
+
+#footer p 
+{
+	text-align: center;
+}
+
+/* --------------------------------------- INI BAHAGIAN SLIDER --------------------------------------- */
+
+#slider { width:980px; height:418px; position:relative; overflow:hidden; margin-left: 90px; margin-top: 20px;}
+#slider-holder { width:980px; height:418px; position:relative; overflow:hidden; border-radius: 15px; border:3px solid white;}
+#slider-holder ul{ width:980px; height:418px; position:relative; overflow:hidden; list-style-type: none;}
+#slider-holder .jcarousel-clip{ width:980px; height:418px; position:relative; overflow:hidden; }
+
+#slider-holder ul li
+{ 
+	width:980px; 
+	height:418px; 
+	position:relative; 
+	overflow:hidden; 
+	float:left; 
+	display:inline; 
+}
+
+#slider-nav a
+{ 
+	position:absolute; 
+	top:180px; 
+	font-size:0; 
+	line-height:0; 
+	z-index:2; 
+	width:58px; 
+	height:58px; 
+	text-indent: -4000px;
+}
+
+#slider-nav a.prev
+{ 
+	background:url(../images/s2.png); 
+	left:0;
+}
+
+#slider-nav a.next
+{ 
+	background:url(../images/s.png);
+	right:0;
+}
